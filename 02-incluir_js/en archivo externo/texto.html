@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>JAVASCRIPT</title>
+    </head>
+    <body>
+      <script>
+        function decorar(texto)
+        {
+          return '###' + texto + '###';
+        }
+          console.log(decorar('hola'));
+
+          function decorar2(texto)
+          {
+            var a = decorar(texto);
+            return '----' + a + '----';
+          }
+
+          console.log(decorar2('holaaaa'));
+      </script>
+
+
+    </body>
+</html>

@@ -1,0 +1,52 @@
+body
+{
+  font-family: helvetica;
+  background-color: rgb(14, 23, 27);
+}
+
+#header
+{
+  text-align: center;
+  height: 40px  ;
+  line-height: 40px;
+}
+
+h1
+{
+  vertical-align: middle;
+  color: #702342;
+  font-weight: bold;
+}
+
+.row
+{
+  margin: 10px 20px;
+}
+
+#results
+{
+  margin: 30px 20px 10px 0px;
+}
+
+.person-row
+{
+  margin: 10px 0px;
+  padding: 10px;
+  width: 100%;
+  float: left;
+}
+
+button
+{
+  background-color: #9a23ec;
+}
+
+.person-row
+{
+  background-color: rgb(46, 83, 77);
+
+}
+label
+{
+  color:#6e1fd2;
+}
